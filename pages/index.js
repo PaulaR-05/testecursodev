@@ -9,7 +9,6 @@ export default function Home() {
     "Alemão": "Hallo Welt 😄",
     "Italiano": "Ciao Mondo 😄",
     "Japonês": "こんにちは世界 😄 (Konnichiwa Sekai)",
-    "Chinês": "你好，世界 😄 (Nǐ hǎo, shìjiè)",
     "Coreano": "안녕하세요 세계 😄 (Annyeonghaseyo Segye)",
     "Árabe": "مرحبا بالعالم 😄 (Marhaban bialalam)"
   };
