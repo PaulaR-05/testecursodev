@@ -2,12 +2,12 @@ import { useState, useEffect } from 'react';
 
 export default function Home() {
   const hellos = {
-    "Português": "Olá Mundo 😄",
-    "Inglês": "Hello World 😄",
-    "Espanhol": "Hola Mundo 😄",
-    "Francês": "Bonjour le Monde 😄",
-    "Alemão": "Hallo Welt 😄",
-    "Italiano": "Ciao Mondo 😄",
+    "Português": "Olá, Mundo 😄",
+    "Inglês": "Hello, World 😄",
+    "Espanhol": "Hola, Mundo 😄",
+    "Francês": "Bonjour, le Monde 😄",
+    "Alemão": "Hallo, Welt 😄",
+    "Italiano": "Ciao, Mondo 😄",
     "Japonês": "こんにちは世界 😄 (Konnichiwa Sekai)",
     "Coreano": "안녕하세요 세계 😄 (Annyeonghaseyo Segye)",
     "Árabe": "مرحبا بالعالم 😄 (Marhaban bialalam)"
