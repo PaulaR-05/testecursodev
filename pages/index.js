@@ -13,17 +13,17 @@ export default function Home() {
       raca: "Golden Retriever",
       comportamento: "Brincalhão, carinhoso e adora crianças!",
       cidade: "São Paulo - SP",
-      coordenadas: [-46.6333, -23.5505],
+      coordinates: [-46.6333, -23.5505],
       imagem:
         "https://images.unsplash.com/photo-1558788353-f76d92427f16?auto=format&fit=crop&w=800&q=80",
     },
     {
       nome: "Luna",
       idade: "3 anos",
-      raca: "Vira-lata",
+      raca: "SRD",
       comportamento: "Calma, protetora e adora cochilos ao sol ☀️",
       cidade: "Curitiba - PR",
-      coordenadas: [-49.2731, -25.4278],
+      coordinates: [-49.2731, -25.4278],
       imagem:
         "https://images.unsplash.com/photo-1507146426996-ef05306b995a?auto=format&fit=crop&w=800&q=80",
     },
@@ -33,17 +33,18 @@ export default function Home() {
       raca: "Labrador",
       comportamento: "Super energético e ama brincar com bolinhas 🎾",
       cidade: "Rio de Janeiro - RJ",
-      coordenadas: [-43.1729, -22.9068],
+      coordinates: [-43.1729, -22.9068],
       imagem:
         "https://images.unsplash.com/photo-1568572933382-74d440642117?auto=format&fit=crop&w=800&q=80",
     },
     {
-      nome: "Maya",
+      nome: "Maya & Bella",
       idade: "4 anos",
-      raca: "Border Collie",
-      comportamento: "Inteligente, ativa e muito obediente 🧠🐾",
+      raca: "SRD",
+      comportamento:
+        "Adoção conjunta Maya e Bella. Ambas são inteligentes, carinhosas e muito obedientes 🧠🐾",
       cidade: "Belo Horizonte - MG",
-      coordenadas: [-43.9378, -19.9208],
+      coordinates: [-43.9378, -19.9208],
       imagem:
         "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=800&q=80",
     },
