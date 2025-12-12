@@ -1,9 +1,4 @@
 "use client";
-import dynamic from "next/dynamic";
-
-const BrasilMap = dynamic(() => import("../components/BrasilMap.js"), {
-  ssr: false,
-});
 
 export default function Home() {
   const dogs = [
@@ -137,9 +132,6 @@ export default function Home() {
           </div>
         ))}
       </div>
-
-      {/* Mapa carregado dinamicamente */}
-      <BrasilMap dogs={dogs} />
     </div>
   );
 }
