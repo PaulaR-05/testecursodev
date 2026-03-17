@@ -1,3 +1,12 @@
 {
-  "compilerOptions": { "baseUrl": "." }
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": ["es2022", "dom", "dom.iterable"],
+    "jsx": "preserve",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es6"
+  },
+  "include": ["**/*.js"],
+  "exclude": ["node_modules"]
 }
