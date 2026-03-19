@@ -33,6 +33,9 @@ export default {
 };
 
 function getSSLValues() {
+  console.log("POSTGRES_CA:", process.env.POSTGRES_CA ? "existe" : "undefined");
+  console.log("NODE_ENV:", process.env.NODE_ENV);
+
   if (process.env.POSTGRES_CA) {
     return {
       ca: process.env.POSTGRES_CA.split("\\n").join("\n"),
