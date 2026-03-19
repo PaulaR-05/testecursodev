@@ -35,8 +35,9 @@ export default {
 function getSSLValues() {
   if (process.env.POSTGRES_CA) {
     return {
-      ca: process.env.POSTGRES_CA,
+      ca: process.env.POSTGRES_CA.split("\\n").join("\n"),
     };
-    return process.env.NODE_ENV === "production" ? true : false;
   }
+
+  return process.env.NODE_ENV === "production" ? true : false;
 }
