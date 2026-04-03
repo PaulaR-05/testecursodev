@@ -1,4 +1,9 @@
 import database from "infra/database.js";
+import orchestrator from "tests/integration/api/v1/orchestrator.js";
+
+beforeAll(async () => {
+  await orchestrator.waitForAllServices();
+});
 
 test("POST to /api/v1/migrations returns 200 and correct body", async () => {
   const response1 = await fetch("http://localhost:3000/api/v1/migrations", {
